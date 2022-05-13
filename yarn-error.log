@@ -1,0 +1,68 @@
+Arguments: 
+  /usr/local/bin/node /mnt/c/Users/Itadori/AppData/Roaming/npm/node_modules/yarn/bin/yarn.js add node-sass
+
+PATH: 
+  /home/asuna/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/home/asuna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python/Python310/Scripts/:/mnt/c/Python/Python310/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Python/Python39/Scripts/:/mnt/c/Python/Python39/:/mnt/c/Python/Python37/Scripts/:/mnt/c/Python/Python37/:/mnt/c/Users/Itadori/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Itadori/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Itadori/AppData/Roaming/npm:/mnt/c/Users/Itadori/AppData/Local/Yarn/bin:/mnt/c/Python/Python27/:/snap/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "3d-product-configurator",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "4.11.3",
+      "@material-ui/styles": "4.11.3",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "gsap": "^3.6.1",
+      "node-sass": "^4.12.0",
+      "postprocessing": "^6.21.3",
+      "prettier": "2.2.1",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-redux": "7.2.3",
+      "react-router": "5.2.0",
+      "react-router-dom": "5.2.0",
+      "react-scripts": "4.0.0",
+      "react-toggle-display": "^2.2.1",
+      "redux": "4.0.5",
+      "redux-devtools-extension": "^2.13.9",
+      "redux-persist": "6.0.0",
+      "redux-thunk": "^2.3.0",
+      "three": "0.127.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+      "serve": "node server.js",
+      "fix": "prettier -w \"src/**/*.{js,jsx}\"",
+      "lint": "prettier --check \"src/**/*.{js,jsx}\""
+    },
+    "browserslist": [
+      "Chrome >= 60",
+      "Safari >= 11",
+      "iOS >= 11",
+      "Firefox >= 60",
+      "Edge >= 16"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -9,7 +9,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "gsap": "^3.6.1",
-    "node-sass": "^4.12.0",
     "postprocessing": "^6.21.3",
     "prettier": "2.2.1",
     "react": "17.0.2",
@@ -38,5 +37,8 @@
     "iOS >= 11",
     "Firefox >= 60",
     "Edge >= 16"
-  ]
+  ],
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
 }
